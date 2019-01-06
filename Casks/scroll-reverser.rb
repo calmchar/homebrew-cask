@@ -11,6 +11,8 @@ cask 'scroll-reverser' do
   url "https://pilotmoon.com/downloads/ScrollReverser-#{version}.zip"
   name 'Scroll Reverser'
   homepage 'https://pilotmoon.com/scrollreverser/'
+  
+  auto_updates true
 
   depends_on macos: '>= :tiger'
 
